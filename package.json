@@ -1,0 +1,26 @@
+{
+  "name": "angular-lite",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+		"npm": "Do not use npm, use pnpm instead",
+		"pnpm": ">=7.0.0",
+		"yarn": "Do not use yarn, use pnpm instead"
+	},
+  "scripts": {
+    "build": "ng build",
+    "serve": "ng serve",
+    "preview": "ng serve --configuration preview"
+  },
+  "dependencies": {
+    "@angular/common": "latest",
+    "@angular/core": "latest",
+    "@angular/platform-browser": "latest",
+    "@angular/platform-browser-dynamic": "latest",
+    "@angular/router": "latest"
+  },
+  "devDependencies": {
+    "@angular/cli": "latest",
+    "@angular-devkit/build-angular": "latest"
+  }
+}
